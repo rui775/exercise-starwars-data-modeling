@@ -8,6 +8,8 @@ from eralchemy2 import render_er
 
 Base = declarative_base()
 
+#
+
 class Product(Base):
     __tablename__ = 'product'
     # Here we define columns for the table person
